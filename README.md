@@ -17,15 +17,14 @@ A web-based application built with **Python, Flask, and SQLite** to simplify stu
 - **Backend:** Python, Flask
 - **Database:** SQLite
 - **Frontend:** HTML, CSS
-- **Templating Engine:** Jinja2
 
 ## Installation and Setup
 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/vishalwaghmare0812/Flight-Reservation-System-Python.git
+cd Flight-Reservation-System-Python
 ```
 
 ### 2. Install Dependencies
