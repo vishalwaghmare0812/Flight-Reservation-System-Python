@@ -1,61 +1,56 @@
+# Flight Booking System
 
-# Student Management System
-
-A web-based application built with **Python, Flask, and SQLite** to simplify student record management through an efficient and user-friendly interface.
+A web-based flight booking application developed using **Python, Flask, and SQLite**. Search flights, compare fares, check seat availability, and book flights through a simple and user-friendly interface.
 
 ## Features
 
-- **Student Registration** — Add student details with input validation.
-- **Record Management** — View, update, and delete student records.
-- **Smart Search** — Search by roll number, name, email, or course.
-- **Data Integrity** — Enforce unique roll numbers and required fields.
-- **Academic Validation** — Validate academic year values from 1 to 8.
-- **Persistent Storage** — Store student records in an SQLite database.
+- **Flight Search:** Search flights by source, destination, and travel date.
+- **Fare Comparison:** Sort flights by price, departure time, or duration.
+- **Seat Availability:** View available seats before booking.
+- **Flight Booking:** Book flights using passenger name and email.
+- **Database Management:** Store flight details and booking records using SQLite.
+- **Sample Data:** Automatically populate sample flights on the first run.
 
 ## Technology Stack
 
-- **Backend:** Python, Flask
-- **Database:** SQLite
-- **Frontend:** HTML, CSS
+- Python
+- Flask
+- SQLite
+- HTML/CSS
 
 ## Installation and Setup
 
+- Python 3.9 or later
+- pip
+
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/vishalwaghmare0812/Flight-Reservation-System-Python.git
-cd Flight-Reservation-System-Python
-```
+    git clone https://github.com/vishalwaghmare0812/Flight-Reservation-System-Python.git
+    cd Flight-Reservation-System-Python
 
 ### 2. Install Dependencies
 
-```bash
-pip install Flask
-```
+    pip install Flask
 
 ### 3. Run the Application
 
-```bash
-python app.py
-```
+    python app.py
 
 ### 4. Access the Application
 
 Open your browser and visit:
 
-`http://127.0.0.1:5000/`
+http://127.0.0.1:5000
 
-The SQLite database is initialized automatically when the application starts.
+The SQLite database (`flights.db`) and sample flight records are initialized automatically when the application starts.
 
 ## Project Structure
 
-```text
-student-management-system/
-├── app.py
-├── students.db
-└── templates/
-    ├── index.html
-    └── form.html
-```
+    flight-booking-system/
+    ├── app.py
+    ├── flights.db
+    └── templates/
+        ├── index.html
+        └── booking.html
 
-**Developed using Python, Flask, and SQLite.**
+**Built with Python, Flask, and SQLite.**
